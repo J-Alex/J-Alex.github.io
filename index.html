@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9" lang=""> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang=""> <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" href="favicon.png"> <!-- type="image/png" sizes="16x16"-->
+  
+  <title>j-alex {{ WebDev }}</title>
+
+  <link rel="stylesheet" href="res/css/styles.css">
+  <script src="res/assets/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+  
+</head>
+<body>
+  <!--HEADER-->
+  <header class="flex centerV fixed">
+      <div class="flex wrapp">
+          <h1><a class="text-white" href="#">D&D</a></h1>
+          <nav class="flex">
+              <a href="#inicio">Inicio</a>
+              <a href="#info">Info</a>
+              <a href="#servicios">Servicios</a>
+              <a href="#portafolio">Portafolio</a>
+              <!--<a href="#clientes">Clientes</a>-->
+              <a href="#contacto">Contacto</a>
+              <a class="hire" href="#">Hire me</a>
+          </nav>        
+      </div>
+  </header>
+
+  <main>
+
+    <!--BANER_COVER-->
+    <div class="full-h banner"></div>
+    
+    <!--BANNER-COVER-->
+    <div id="inicio" class="flex full-h gradient-dark flex-center">
+      <h2 class="text-white main-title">{{ web-developer }}</h2>
+    </div>
+
+    <!--ABOUT ME-->
+    <section id="info" class="flex full-h bg-gray centerV">
+      <div class="flex wrapp flex-center">
+        <img class="img-profile" src="res/img/img-profile.jpg" alt="img-profile">
+        <div class="sumary">
+          <h2>Sobre mi...</h2>
+          <p class="text">Hola, soy Jennier Cruz, estudiante de la carrera de ingenieria en sistemas de informacion, autodidacta empedernido en el apredizaje de tecnologias para el desarrollo web; enfocado en procesos, ingenieria, arquitectura y entrega inmediata de productos mediante entregables que en su conjunto aporten a la construccion de sistemas complejos.</p>
+        </div>
+      </div>
+    </section>
+
+    <!--SERVICES-->
+    <section id="servicios" class="flex full-h centerV">
+      <h2 class="text-center">servicios</h2>  
+      <div class="flex wrapp centerV">      
+        <div class="service-card">
+          <figure>
+            <img class="img-service" src="res/img/dev.jpg" alt="img-service">
+            <figcaption class="service-legend">Diseño Web</figcaption>
+            <p class="service-description text-center">proyectáte de la manera más actual y llégale a más personas</p>
+          </figure>
+        </div>
+        <div class="service-card">
+          <figure>
+            <img class="img-service" src="res/img/dev.jpg" alt="img-service">
+            <figcaption class="service-legend">Desarrollo de Sistemas</figcaption>
+            <p class="service-description text-center">sistemas informáticos para la automatizacion de procesos de tu negocio o empresa</p>
+          </figure>
+        </div>
+        <div class="service-card">
+          <figure>
+            <img class="img-service" src="res/img/dev.jpg" alt="img-service">
+            <figcaption class="service-legend">Desarrollo de Apps</figcaption>
+            <p class="service-description text-center">Aplicaciones móviles personalizadas para tu empresa o idea de emprendimiento</p>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+
+    <!--PORTFOLIO-->
+    <section id="portafolio" class="full-h">
+      <div class="wrapp wrapp__padding centrado">
+        <h2 class="text-white text-center">PORTAFOLIO</h2>
+
+        <div id="filters" class="button-group flex centerV">  
+          <a herf="" class="isotope is-checked" data-filter="*">Todos</a>
+          <a herf="" class="isotope" data-filter=".web">web</a>
+          <a herf="" class="isotope" data-filter=".system">sistema</a>
+          <a herf="" class="isotope" data-filter=".design">diseño</a>
+          <a herf="" class="isotope" data-filter=".mobile">móvil</a>
+          <a herf="" class="isotope" data-filter=".photograpy">fotografía</a>
+        </div>
+      </div>
+      <div class="wrapp centrado grid">
+        <figure class="element-item portfolio-card design">
+          <img src="res/img/design.jpg" alt="img-porfolio">
+          <figcaption class="flex flex-center">
+            <a class="portfolio-btn flex flex-center" href="">ver</a>
+          </figcaption>
+        </figure>
+        <figure class="element-item portfolio-card mobile">
+          <img src="res/img/bg-pattern.jpg" alt="img-porfolio">
+          <figcaption class="flex flex-center">
+            <a class="portfolio-btn flex flex-center" href="">ver</a>
+          </figcaption>
+        </figure>
+        <figure class="element-item portfolio-card web">
+          <img src="res/img/viewport.jpg" alt="img-porfolio">
+          <figcaption class="flex flex-center">
+            <a class="portfolio-btn flex flex-center" href="">ver</a>
+          </figcaption>
+        </figure>
+        <figure class="element-item portfolio-card mobile">
+          <img src="res/img/bg-pattern.jpg" alt="img-porfolio">
+          <figcaption class="flex flex-center">
+            <a class="portfolio-btn flex flex-center" href="">ver</a>
+          </figcaption>
+        </figure>
+        <figure class="element-item portfolio-card photograpy">
+          <img src="res/img/photograpy.jpg" alt="img-porfolio">
+          <figcaption class="flex flex-center">
+            <a class="portfolio-btn flex flex-center" href="">Este</a>
+          </figcaption>
+        </figure>
+        <figure class="element-item portfolio-card system">
+          <img src="res/img/sistema.jpg" alt="img-porfolio">
+          <figcaption class="flex flex-center">
+            <a class="portfolio-btn flex flex-center" href="">ver</a>
+          </figcaption>
+        </figure>
+        <figure class="element-item portfolio-card photograpy">
+          <img src="res/img/photograpy0.jpg" alt="img-porfolio">
+          <figcaption class="flex flex-center">
+            <a class="portfolio-btn flex flex-center" href="">ver</a>
+          </figcaption>
+        </figure>
+        <figure class="element-item portfolio-card design">
+          <img src="res/img/design0.jpg" alt="img-porfolio">
+          <figcaption class="flex flex-center">
+            <a class="portfolio-btn flex flex-center" href="">ver</a>
+          </figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <!--CONTACTO-->
+    <section id="contacto" class="full-h">
+      <div class="contacto-wrap flex flex-center">
+        <h2>Contáctame</h2>
+        <!--<form>
+          <div class="form-group">
+            <label for="" class="form-label">Nombre: </label>
+            <input type="text" class="form-control">
+          </div>
+            <div class="form-group">
+            <label for="" class="form-label">Correo: </label>
+            <input type="text" class="form-control">
+          </div>
+          <div class="form-group">
+            <label for="" class="form-label">Mensage: </label>
+            <textarea name="" id="" cols="30"s="10" class="form-control"></textarea>
+          </div>
+          <div class="form-group">
+            <button class="btn btn-default btn-primary">Enviar</button>
+          </div>
+        </form>-->
+      </div>
+    </section>
+  </main>
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="res/assets/jquery.min.js"><\/script>')</script>
+
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.7/angular.min.js"></script>
+
+
+<script src="res/js/scroll.js"></script>
+
+<script src="https://npmcdn.com/isotope-layout@3.0/dist/isotope.pkgd.min.js"></script>
+<script src="res/js/isotope.pkgd.min.js"></script>
+<script src="res/js/isotope.js"></script>
+
+<script src="https://cdn.jsdelivr.net/scrollreveal.js/3.1.4/scrollreveal.min.js"></script>
+<script src="res/js/scrollreveal.min.js"></script>
+
+<script src="res/assets/plugins.js"></script>
+<script src="res/js/main.js"></script>
+
+<script src="https://www.gstatic.com/firebasejs/live/3.0/firebase.js"></script>
+<script src="resjs/firebase-initialize.js"></script>
+
+
+<!-- Google Analytics: change UA-XXXXX-X to be your site's ID. 
+<script>
+    (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+    function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+    e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+    e.src='//www.google-analytics.com/analytics.js';
+    r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+    ga('create','UA-XXXXX-X','auto');ga('send','pageview');
+</script>  -->
+<script>
+  window.sr = ScrollReveal().reveal('.img-profile, .img-service, .sumary, .portfolio-card',{duration:800,origin:'bottom',distance:'20px',delay:0,reset:true});
+</script> 
+<!--<script src="res/assets/bootstrap.min.js"></script>
+<div class="modal fade" id="miModal">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <buton class="close" aria-hidden="true" data-dismiss="modal">&times;</buton>
+                <h4 class="modal-title">Photo #1</h4> 
+            </div>
+            <div class="modal-body">
+                <img src="res/img/photograpy.jpg" width="300px" height="300px">
+            </div>
+        </div>
+    </div>
+</div>-->
+
+</body>
+</html>
