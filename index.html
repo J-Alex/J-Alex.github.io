@@ -49,8 +49,11 @@
     </div>
     
     <!--BANNER-COVER-->
-    <div id="inicio" class="flex full-h gradient-dark flex-center">
-      <h2 class="text-white main-title"></h2><!--<span class="bold">Diseño & Desarrollo</span> de Soluciones Informáticas-->
+    <div id="inicio" class="flex full-h gradient-dark centerH derecha">
+      <div class="title-container flex centerH">
+        <h2 class="text-white main-title">Diseñamos y Desarrollamos <br> <span class="typing"></span></h2>
+      </div>
+      <!--<h2 class="text-white main-title"></h2><span class="bold">Diseño & Desarrollo</span> de Soluciones Informáticas-->
     </div>
 
     <!--ABOUT ME-->
@@ -237,9 +240,9 @@
 <script src="res/js/typed.min.js"></script>
 <script>
   $(function(){
-    $(".main-title").typed({
-      strings: ["First sentence.", "Second sentence."],
-      typeSpeed: 120,
+    $(".typing").typed({
+      strings: ["el sistema que necesita tu empresa", "la aplicacion que gestiona los proceso de tu organizacion o negocio", "tu sitio web que te proyecta como un profesional", "la página web de lo que te pasiona", "el sitio que refleja el artista que eres"],
+      typeSpeed: 50,
       loop: true
     });
   });

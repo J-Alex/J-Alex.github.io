@@ -60,6 +60,12 @@ h2 {
 .centerV {
   justify-content: center; }
 
+.centerH {
+  align-items: center; }
+
+.derecha {
+  justify-content: flex-end; }
+
 /*********************************
 			grid
 **********************************/
@@ -124,6 +130,12 @@ header {
 .bold {
   font-family: sans-serif;
   font-weight: bold; }
+
+.title-container {
+  height: 100%;
+  width: 60%;
+  padding-right: 1rem;
+  padding-left: 1rem; }
 
 /*********************************
             info
