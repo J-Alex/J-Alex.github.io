@@ -25,10 +25,10 @@
           <h1><a class="text-white" href="#">D&D</a></h1>
           <nav class="flex">
               <a href="#inicio">Inicio</a>
-              <a href="#info">Info</a>
               <a href="#servicios">Servicios</a>
               <a href="#portafolio">Portafolio</a>
-              <!--<a href="#clientes">Clientes</a>-->
+              <!--<a href="#clientes">Clientes</a>
+              <a href="#info">Info</a>-->
               <a href="#contacto">Contacto</a>
               <a class="hire" href="#">Hire me</a>
           </nav>        
@@ -41,22 +41,22 @@
     <div class="full-h banner"></div>-->
     <div class="sliderContainer">
       <ul class="rslides">
-        <li><img src="res/img/1.jpg" alt="UNO"></li>
-        <li><img src="res/img/2.jpg" alt="DOS"></li>
-        <li><img src="res/img/3.jpg" alt="TRES"></li>                    
-        <li><img src="res/img/4.png" alt="FOR"></li>
+        <li><img src="res/img/8.jpg" alt="UNO"></li>
+        <li><img src="res/img/10.jpg" alt="DOS"></li>
+        <li><img src="res/img/6.jpg" alt="TRES"></li>                    
+        <li><img src="res/img/7.jpg" alt="FOR"></li>
       </ul>                
     </div>
     
     <!--BANNER-COVER-->
     <div id="inicio" class="flex full-h gradient-dark centerH derecha">
       <div class="title-container flex centerH">
-        <h2 class="text-white main-title">Diseñamos y Desarrollamos <br> <span class="typing"></span></h2>
+        <h2 class="text-white main-title"><span class="bold">Diseñamos &  Desarrollamos</span> <br> <span class="typing"></span></h2>
       </div>
       <!--<h2 class="text-white main-title"></h2><span class="bold">Diseño & Desarrollo</span> de Soluciones Informáticas-->
     </div>
 
-    <!--ABOUT ME-->
+    <!--ABOUT ME
     <section id="info" class="flex full-h bg-gray centerV">
       <div class="flex wrapp flex-center">
         <img class="img-profile" src="res/img/img-profile.jpg" alt="img-profile">
@@ -65,11 +65,11 @@
           <p class="text">Hola, soy Jennier Cruz, estudiante de la carrera de ingenieria en sistemas de informacion, autodidacta empedernido en el apredizaje de tecnologias para el desarrollo web; enfocado en procesos, ingenieria, arquitectura y entrega inmediata de productos mediante entregables que en su conjunto aporten a la construccion de sistemas complejos.</p>
         </div>
       </div>
-    </section>
+    </section>-->
 
     <!--SERVICES-->
     <section id="servicios" class="flex full-h centerV">
-      <h2 class="text-center">servicios</h2>  
+      <h2 class="text-center">Diseño & Desarrollo de Soluciones Informáticas</h2>  
       <div class="flex wrapp centerV">      
         <div class="service-card">
           <figure>
@@ -224,25 +224,25 @@
 <script src="res/js/responsiveslides.min.js"></script> 
 <script>
   $(function() {
-    $(".rslides").responsiveSlides({pager: false,auto:true});
+    $(".rslides").responsiveSlides({auto:true,speed:900, timeout:5000});
   });
-  $(window).scroll( function(){ 
-    /* Check the location of each desired element */
+  /*$(window).scroll( function(){ 
+     Check the location of each desired element 
     $('.hideme').each( function(i){
       var bottom_of_object = $(this).position().top + $(this).outerHeight();
-      var bottom_of_window = $(window).scrollTop() + $(window).height();
+      var bottom_of_window = $(window).scrollTop() + $(window).height();*/
 
-      /* If the object is completely visible in the window, fade it it */
-      if( bottom_of_window > bottom_of_object ){ $(this).animate({'opacity':'1'},500); }
+      /* If the object is completely visible in the window, fade it it 
+      if( bottom_of_window > bottom_of_object ){ $(this).animate({'opacity':'1'},1200); }
     });  
-  });
+  });*/
 </script> 
 <script src="res/js/typed.min.js"></script>
 <script>
   $(function(){
     $(".typing").typed({
-      strings: ["el sistema que necesita tu empresa", "la aplicacion que gestiona los proceso de tu organizacion o negocio", "tu sitio web que te proyecta como un profesional", "la página web de lo que te pasiona", "el sitio que refleja el artista que eres"],
-      typeSpeed: 50,
+      strings: ["El sistema que necesita tu empresa o negocio.", "Aplicaciones empresariales a medida", "El sitio web que te proyectará como profesional.", "La página web de lo que te apasiona.", "El sitio que refleja el artista que eres."],
+      typeSpeed: 15,
       loop: true
     });
   });
